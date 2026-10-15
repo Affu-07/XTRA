@@ -36,5 +36,6 @@ Google Fonts and Font Awesome are loaded from CDNs. An internet connection is ne
 You can deploy this project using Netlify, Vercel, or GitHub Pages. Upload the project files and make sure `index.html` is in the published folder.
 
 ## Links
-- GitHub Repository: 
-- Live Website: Add your deployed website link here.
+- GitHub Repository:https://github.com/Affu-07/XTRA.git
+
+- Live Website:https://affu-07.github.io/XTRA/
