@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ – Construction 2</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- top bar -->
+  <div class="topbar">
+    <div class="container topbar-flex">
+      <p>Have any questions? call us <a href="tel:0018182345678"><i class="fa-solid fa-phone-volume"></i> +1 (818) 23 45 678</a></p>
+      <div class="social" aria-hidden="true">
+        <span aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></span>
+        <span aria-label="X"><i class="fa-brands fa-x-twitter"></i></span>
+        <span aria-label="Instagram"><i class="fa-brands fa-instagram"></i></span>
+        <span aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- header -->
+  <header class="header" id="header">
+    <div class="container header-flex">
+      <a href="index.html" class="brand-logo" aria-label="Xtra Construction home">
+        <span class="brand-logo-mark"><i class="fa-solid fa-helmet-safety"></i></span>
+        <span>XTRA<strong>CONSTRUCTION</strong></span>
+      </a>
+
+      <ul class="menu" id="menu">
+        <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="faq.html" class="active">FAQ</a></li>
+        <li class="dropdown">
+          <a href="#" aria-expanded="false">Pages <i class="fa-solid fa-angle-down"></i></a>
+          <ul class="submenu">
+            <li><a href="my-account.html">My account</a></li>
+          </ul>
+        </li>
+        <li><a href="index.html#quote">Contact</a></li>
+      </ul>
+
+      <div class="header-right">
+        <button id="searchBtn" type="button" aria-label="Open search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <a href="index.html#quote" class="btn white">Free Consultation</a>
+        <button id="menuBtn" type="button" aria-label="Open navigation menu" aria-controls="menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- search popup -->
+  <div class="search-box" id="searchBox">
+    <button class="popup-close" id="searchClose" type="button" aria-label="Close search">&times;</button>
+    <input type="text" placeholder="Type keyword to search ...">
+    <p>Trending searches: place, silence, create, logo, like</p>
+  </div>
+
+  <!-- page title banner -->
+  <div class="page-banner">
+    <div class="container banner-flex">
+      <h1>FAQ</h1>
+      <div class="breadcrumb">
+        <a href="index.html"><i class="fa-solid fa-house"></i></a>
+        <i class="fa-solid fa-angles-right"></i>
+        <span>FAQ</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- faq top -->
+  <section class="faq-top">
+    <div class="container faq-top-grid">
+      <div class="heading-wrap reveal from-left" data-text="FAQ">
+        <p class="small-title left">FEEL FREE TO CONTACT US</p>
+        <h2 class="title left big">Do you have <span class="yellow">Questions?</span></h2>
+        <p class="faq-intro">Read through the questions below. If you can’t find what you need, send our team a question.</p>
+      </div>
+      <div class="faq-img reveal from-right">
+        <img src="images/about.png" alt="Construction professionals reviewing a building project">
+      </div>
+    </div>
+  </section>
+
+  <!-- accordion + form -->
+  <section class="faq-main">
+    <div class="container faq-grid">
+
+      <div class="faq-left">
+        <div class="faq-head">
+          <span class="diamond-icon"><i class="fa-solid fa-circle-question"></i></span>
+          <div>
+            <h4>Our FAQ</h4>
+            <small>Frequently asked questions</small>
+          </div>
+        </div>
+
+        <div class="accordion" id="accordion">
+          <div class="acc-item open">
+            <div class="acc-title"><span>What types of construction projects do you take on?</span><i class="fa-solid fa-angle-down"></i></div>
+            <div class="acc-body"><p>We work on residential, commercial, and renovation projects, including new buildings, structural upgrades, and ongoing property maintenance. Contact us with your project details and we can discuss the right approach.</p></div>
+          </div>
+          <div class="acc-item">
+            <div class="acc-title"><span>How do I request a project estimate?</span><i class="fa-solid fa-angle-down"></i></div>
+            <div class="acc-body"><p>Use the contact form to tell us about your project, location, and expected timeframe. Our team will review the information and get in touch to discuss the next steps.</p></div>
+          </div>
+          <div class="acc-item">
+            <div class="acc-title"><span>Can you help with planning and design?</span><i class="fa-solid fa-angle-down"></i></div>
+            <div class="acc-body"><p>Yes. We can coordinate with you and your design professionals during planning, review project requirements, and help prepare a practical construction plan.</p></div>
+          </div>
+          <div class="acc-item">
+            <div class="acc-title"><span>How do you keep a project safe?</span><i class="fa-solid fa-angle-down"></i></div>
+            <div class="acc-body"><p>Our team follows site safety procedures, uses appropriate protective equipment, and reviews work areas throughout the project. Safety planning is part of the work from the start.</p></div>
+          </div>
+          <div class="acc-item">
+            <div class="acc-title"><span>How long will construction take?</span><i class="fa-solid fa-angle-down"></i></div>
+            <div class="acc-body"><p>Timelines depend on the project size, site conditions, material availability, and approvals. Once we understand the scope, we can provide a project schedule and keep you updated as work progresses.</p></div>
+          </div>
+          <div class="acc-item">
+            <div class="acc-title"><span>Do you offer maintenance after completion?</span><i class="fa-solid fa-angle-down"></i></div>
+            <div class="acc-body"><p>We can discuss maintenance and follow-up support based on your project needs. Ask our team about the available options when you request a quote.</p></div>
+          </div>
+          <div class="acc-item">
+            <div class="acc-title"><span>How can I get in touch with your team?</span><i class="fa-solid fa-angle-down"></i></div>
+            <div class="acc-body"><p>Send us a question using the form on this page or visit the Contact section on our home page. Include a phone number or email address so we can reply.</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-right">
+        <div class="faq-head">
+          <span class="diamond-icon"><i class="fa-solid fa-comment-dots"></i></span>
+          <div>
+            <h4>Ask Us</h4>
+            <small>Quick contact form</small>
+          </div>
+        </div>
+
+        <form class="faq-form" id="faqForm">
+          <div class="faq-row">
+            <div>
+              <label for="faqName">Your Name (*)</label>
+              <input type="text" id="faqName" required>
+            </div>
+            <div>
+              <label for="faqEmail">Your Email (*)</label>
+              <input type="email" id="faqEmail" required>
+            </div>
+          </div>
+          <label for="faqSubject">Subject</label>
+          <input type="text" id="faqSubject">
+          <label for="faqDepartment">Department</label>
+          <select id="faqDepartment">
+            <option>Business Department</option>
+            <option>Personal Department</option>
+            <option>Support Department</option>
+            <option>Others</option>
+          </select>
+          <label for="faqQuestion">Your Question</label>
+          <textarea id="faqQuestion" rows="6"></textarea>
+          <button type="submit" class="btn navy">Send</button>
+          <p id="faqMsg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="faq-contact-cta">
+    <div class="container faq-contact-inner">
+      <div>
+        <p class="small-title left">WE'RE HERE TO HELP</p>
+        <h2>Still have some questions?</h2>
+        <p>Tell us what you need and our construction team will be happy to help.</p>
+      </div>
+      <a href="index.html#quote" class="btn navy">Contact our team <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <a href="index.html" class="brand-logo" aria-label="Xtra Construction home">
+        <span class="brand-logo-mark"><i class="fa-solid fa-helmet-safety"></i></span>
+        <span>XTRA<strong>CONSTRUCTION</strong></span>
+      </a>
+      <p class="footer-text">Building with care. Delivering with confidence.</p>
+      <div class="footer-social" aria-hidden="true">
+        <span aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></span>
+        <span aria-label="X"><i class="fa-brands fa-x-twitter"></i></span>
+        <span aria-label="Instagram"><i class="fa-brands fa-instagram"></i></span>
+        <span aria-label="YouTube"><i class="fa-brands fa-youtube"></i></span>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Xtra Construction. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="services.html">Services</a>
+          <a href="about.html">About</a>
+          <a href="index.html#quote">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="cookie" id="cookie">
+    <i class="fa-solid fa-cookie-bite"></i>
+    <span>This website uses cookies to improve user experience.</span>
+    <button id="cookieBtn">Accept and close</button>
+  </div>
+
+  <button id="topBtn"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>

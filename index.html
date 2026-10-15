@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Construction 2 – Building and Maintenance</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== TOP BAR ===== -->
+  <div class="topbar">
+    <div class="container topbar-flex">
+      <p>Have any questions? call us <a href="tel:0018182345678"><i class="fa-solid fa-phone-volume"></i> +1 (818) 23 45 678</a></p>
+      <div class="social" aria-hidden="true">
+        <span aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></span>
+        <span aria-label="X"><i class="fa-brands fa-x-twitter"></i></span>
+        <span aria-label="Instagram"><i class="fa-brands fa-instagram"></i></span>
+        <span aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container header-flex">
+      <a href="#home" class="brand-logo" aria-label="Xtra Construction home">
+        <span class="brand-logo-mark"><i class="fa-solid fa-helmet-safety"></i></span>
+        <span>XTRA<strong>CONSTRUCTION</strong></span>
+      </a>
+
+      <ul class="menu" id="menu">
+        <li><a href="#home" class="active"><i class="fa-solid fa-house"></i></a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li class="dropdown">
+          <a href="#" aria-expanded="false">Pages <i class="fa-solid fa-angle-down"></i></a>
+          <ul class="submenu">
+            <li><a href="my-account.html">My account</a></li>
+          </ul>
+        </li>
+        <li><a href="#quote">Contact</a></li>
+      </ul>
+
+      <div class="header-right">
+        <button id="searchBtn" type="button" aria-label="Open search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <a href="#quote" class="btn white">Free Consultation</a>
+        <button id="menuBtn" type="button" aria-label="Open navigation menu" aria-controls="menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== SEARCH POPUP ===== -->
+  <div class="search-box" id="searchBox">
+    <button class="popup-close" id="searchClose" type="button" aria-label="Close search">&times;</button>
+    <input type="text" placeholder="Type keyword to search ...">
+    <p>Trending searches: place, silence, create, logo, like</p>
+  </div>
+
+  <!-- ===== VIDEO POPUP ===== -->
+  <div class="video-modal" id="videoModal">
+    <button class="popup-close" id="videoClose" type="button" aria-label="Close video">&times;</button>
+    <div class="video-box">
+      <iframe id="videoFrame" src="" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-shape"></div>
+
+    <!-- slide 1 -->
+    <div class="slide active">
+      <div class="container slide-flex">
+        <div class="hero-text">
+          <h1>START<br>NEW<br><span>PROJECTS</span></h1>
+          <p>Don't get framed by the competition,<br>trust our solid reputation.</p>
+          <div class="watch" id="watchBtn">
+            <button class="play"><i class="fa-solid fa-play"></i></button>
+            <div>
+              <small>Watch video</small>
+              <strong>Why choose us?</strong>
+            </div>
+          </div>
+        </div>
+        <img class="hero-img" src="images/about.png" alt="Construction professionals reviewing a building project">
+      </div>
+    </div>
+
+    <!-- slide 2 -->
+    <div class="slide">
+      <div class="container slide-flex">
+        <div class="hero-text">
+          <h1>We'll get it done,<br>like us there<br><span>are none</span></h1>
+          <p>Committed to superior quality and results</p>
+          <a href="#quote" class="btn navy">Free Consultation</a>
+        </div>
+        <img class="hero-img" src="images/hero-1.png" alt="Construction worker">
+      </div>
+    </div>
+
+    <div class="hero-arrows">
+      <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+      <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES ===== -->
+  <section class="features">
+    <div class="container">
+      <p class="small-title">FEATURES AT A GLANCE</p>
+      <h2 class="title white">We know what your needs are</h2>
+
+      <div class="feature-row">
+
+        <div class="feature-card reveal">
+          <img src="images/feature-1.png" alt="Building Engineering">
+          <div class="caption"><span>Building Engineering</span><i class="fa-solid fa-angle-up"></i></div>
+          <div class="feature-info">
+            <h3>Building Engineering</h3>
+            <p>Our engineers bring design, construction, assessment, and maintenance together to create buildings that work well over time.</p>
+            <a href="#services" class="btn white">Learn More ...</a>
+          </div>
+        </div>
+
+        <div class="feature-card reveal">
+          <img src="images/feature-2.png" alt="Safety First">
+          <div class="caption"><span>Safety First</span><i class="fa-solid fa-angle-up"></i></div>
+          <div class="feature-info">
+            <h3>Safety First</h3>
+            <p>Our teams follow clear site procedures and use the right protective equipment to keep people safe throughout the build.</p>
+            <a href="#services" class="btn white">Learn More ...</a>
+          </div>
+        </div>
+
+        <div class="feature-card reveal">
+          <img src="images/feature-3.png" alt="Road Construction">
+          <div class="caption"><span>Road Construction</span><i class="fa-solid fa-angle-up"></i></div>
+          <div class="feature-info">
+            <h3>Road Construction</h3>
+            <p>We prepare stable foundations and durable surfaces for road projects, using a process suited to the location and conditions.</p>
+            <a href="#services" class="btn white">Learn More ...</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="container about-flex">
+      <div class="about-img reveal from-left">
+        <img src="images/about.png" alt="About company">
+      </div>
+
+      <div class="about-text reveal from-right">
+        <div class="heading-wrap" data-text="ABOUT">
+          <p class="small-title left">ABOUT OUR COMPANY</p>
+          <h2 class="title left">Always dedicated and devoted</h2>
+        </div>
+        <p>We combine experienced people, careful planning, and dependable materials to deliver lasting results. Our team keeps you informed from the first conversation through project handover.</p>
+        <ul class="tick-list">
+          <li><i class="fa-solid fa-check"></i> Excellent engineering</li>
+          <li><i class="fa-solid fa-check"></i> Modern &amp; up to date</li>
+          <li><i class="fa-solid fa-check"></i> Grade #1 materials</li>
+          <li><i class="fa-solid fa-check"></i> Structures with long life</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="heading-wrap center" data-text="SERVICES">
+        <p class="small-title">WHAT WE CAN DO FOR YOU</p>
+        <h2 class="title">Our construction services</h2>
+      </div>
+
+      <div class="service-row">
+        <div class="service-card reveal">
+          <i class="fa-solid fa-building"></i>
+          <h3>Building</h3>
+          <p>A building, or edifice, is a structure with a roof and walls standing.</p>
+          <a href="#quote" class="btn navy">Read More</a>
+        </div>
+
+        <div class="service-card reveal">
+          <i class="fa-solid fa-truck-monster"></i>
+          <h3>Road Construction</h3>
+          <p>Road construction involves the use of asphalt, liquid asphalt, concrete, soil stabilization, rebar, paving and pavement recycling machines, and other road repair materials.</p>
+          <a href="#quote" class="btn navy">Read More</a>
+        </div>
+
+        <div class="service-card reveal">
+          <i class="fa-solid fa-screwdriver-wrench"></i>
+          <h3>Maintenance</h3>
+          <p>All are assigned responsibilities relate to the maintenance mode.</p>
+          <a href="#quote" class="btn navy">Read More</a>
+        </div>
+      </div>
+
+      <!-- call to action -->
+      <div class="cta reveal">
+        <i class="fa-solid fa-helmet-safety"></i>
+        <div class="cta-text">
+          <h3><span>Building a dream</span> shouldn't be a nightmare!</h3>
+          <p>We have transforming the ideas and visions into winning projects.</p>
+        </div>
+        <a href="#quote" class="btn white">Free Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section class="process">
+    <div class="process-grid">
+
+      <div class="process-left">
+        <div class="heading-wrap" data-text="HOW?">
+          <p class="small-title left">PROCESS OF CONSTRUCTION</p>
+          <h2 class="title left">How it works<br>in construction?</h2>
+        </div>
+        <p>Clear planning and communication help every project move forward with confidence.</p>
+        <div class="process-img reveal from-left">
+          <img src="images/process.png" alt="Process">
+        </div>
+      </div>
+
+      <div class="process-right">
+        <div class="step reveal">
+          <span class="num">01</span>
+          <div><h3>Agency / Bidding</h3><p>Ensure design documents are reviewed and permitted</p></div>
+        </div>
+        <div class="step reveal">
+          <span class="num">02</span>
+          <div><h3>Construction</h3><p>Helps to coordinate furnishings and move-in process</p></div>
+        </div>
+        <div class="step reveal">
+          <span class="num">03</span>
+          <div><h3>Project Execution</h3><p>Client directs move in of equipment, operations &amp; staff</p></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="projects">
+    <div class="container">
+      <div class="heading-wrap center" data-text="SERVICES">
+        <p class="small-title">WE ARE PROFESSIONAL</p>
+        <h2 class="title">Our latest projects</h2>
+      </div>
+
+      <div class="project-grid">
+        <a href="#quote" class="project reveal" aria-label="Ask about the Riverview Green Building project"><img src="images/project-riverview.png" alt="Riverview green building"><div class="overlay"><span class="link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span><h4>Riverview Green Building</h4><p>Building, Road Construction</p></div></a>
+        <a href="#quote" class="project reveal" aria-label="Ask about The Langham Hotel project"><img src="images/project-langham.png" alt="The Langham Hotel construction project"><div class="overlay"><span class="link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span><h4>The Langham Hotel</h4><p>Building, Construction</p></div></a>
+        <a href="#quote" class="project reveal" aria-label="Ask about the Villa Rustica renovation"><img src="images/project-villa.png" alt="Villa Rustica renovation"><div class="overlay"><span class="link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span><h4>Villa Rustica Renovation</h4><p>Construction, Road Construction</p></div></a>
+        <a href="#quote" class="project reveal" aria-label="Ask about the Land Rustica renovation"><img src="images/project-land.png" alt="Land Rustica renovation"><div class="overlay"><span class="link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span><h4>Land Rustica Renovation</h4><p>Building, Maintenance</p></div></a>
+        <a href="#quote" class="project reveal" aria-label="Ask about the kitchen and living room project"><img src="images/project-kitchen.png" alt="Kitchen and living room renovation"><div class="overlay"><span class="link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span><h4>Kitchen And Living Room</h4><p>Architecture, Building</p></div></a>
+        <a href="#quote" class="project reveal" aria-label="Ask about the House Under The Palms project"><img src="images/project-palms.png" alt="House under the palms"><div class="overlay"><span class="link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span><h4>House Under The Palms</h4><p>Construction, Road Construction</p></div></a>
+        <a href="#quote" class="project reveal" aria-label="Ask about the Green House project"><img src="images/project-green.jpg" alt="Green house construction"><div class="overlay"><span class="link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span><h4>Green House</h4><p>Construction, Road Construction</p></div></a>
+        <a href="#quote" class="project reveal" aria-label="Ask about the interior renovation project"><img src="images/project-inside.jpg" alt="Interior renovation project"><div class="overlay"><span class="link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span><h4>Inside renovation</h4><p>Construction, Road Construction</p></div></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== QUOTE ===== -->
+  <section class="quote" id="quote">
+    <div class="container quote-flex">
+
+      <div class="quote-text reveal from-left">
+        <div class="heading-wrap" data-text="QUOTE">
+          <p class="small-title left">INTERESTED IN CONSTRUCTION?</p>
+          <h2 class="title left white">Request a free and<br>fair quote</h2>
+        </div>
+        <p>Tell us about your project, your goals, and your timeframe. Our team will review your request and get back to you to discuss the next steps.</p>
+      </div>
+
+      <form class="quote-form reveal from-right" id="quoteForm">
+        <div class="form-grid">
+          <div>
+            <label for="name">Your Name (required)</label>
+            <input type="text" id="name" required>
+          </div>
+          <div>
+            <label for="email">Your Email (required)</label>
+            <input type="email" id="email" required>
+          </div>
+          <div>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject">
+          </div>
+          <div>
+            <label for="department">Department</label>
+            <select id="department">
+              <option>Business Department</option>
+              <option>Personal Department</option>
+              <option>Support Department</option>
+              <option>Others</option>
+            </select>
+          </div>
+          <div class="full">
+            <label for="message">Your Message</label>
+            <textarea id="message" rows="6"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn navy">Send Message</button>
+        <p id="formMsg" role="status" aria-live="polite"></p>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="heading-wrap center" data-text="TESTIMONIALS">
+        <p class="small-title">THREE FICTIONAL SAMPLE VOICES</p>
+        <h2 class="title">Our happy customers</h2>
+        <p class="testimonial-disclaimer">These are invented sample quotes, not real statements, customers, or endorsements by the people named.</p>
+      </div>
+
+      <div class="testi-wrap">
+        <div class="testi-track" id="testiTrack">
+
+          <div class="testi-slide">
+            <div class="testi-card">
+              <div class="testi-photo">
+                <img src="images/musk.jpg" alt="Elon Musk">
+              </div>
+              <div class="testi-body">
+                <p>"Thank you for bringing such bold thinking and care to our project. The best work comes from a team that keeps pushing to build something better."</p>
+                <h5>- Elon Musk <span>Fictional sample quote</span></h5>
+              </div>
+              <i class="fa-solid fa-quote-right quote-mark"></i>
+            </div>
+          </div>
+
+          <div class="testi-slide">
+            <div class="testi-card">
+              <div class="testi-photo">
+                <img src="images/pichai.jpg" alt="Sundar Pichai">
+              </div>
+              <div class="testi-body">
+                <p>“AI is most useful when it helps people solve real problems. I appreciate the team's thoughtful use of technology to make planning and building smarter.”</p>
+                <h5>- Sundar Pichai <span>Fictional sample quote</span></h5>
+              </div>
+              <i class="fa-solid fa-quote-right quote-mark"></i>
+            </div>
+          </div>
+
+          <div class="testi-slide">
+            <div class="testi-card">
+              <div class="testi-photo">
+                <img src="images/shah.webp" alt="Shah Rukh Khan">
+              </div>
+              <div class="testi-body">
+                <p>"A lasting creation begins with a clear vision and a team that cares about every detail. It is wonderful to see thoughtful work brought to life."</p>
+                <h5>- Shah Rukh Khan <span>Fictional sample quote</span></h5>
+              </div>
+              <i class="fa-solid fa-quote-right quote-mark"></i>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="testi-dots" id="testiDots">
+        <span class="active"></span><span></span><span></span>
+      </div>
+
+      <div class="logos partner-wordmarks" aria-label="Construction partners">
+        <span><i class="fa-solid fa-mountain-sun"></i> NORTHLINE</span>
+        <span><i class="fa-solid fa-cubes-stacked"></i> STONEWORKS</span>
+        <span><i class="fa-solid fa-city"></i> URBANFORM</span>
+        <span><i class="fa-solid fa-compass-drafting"></i> ATLAS</span>
+        <span><i class="fa-solid fa-building"></i> FOUNDRY CO.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <a href="#home" class="brand-logo" aria-label="Xtra Construction home">
+        <span class="brand-logo-mark"><i class="fa-solid fa-helmet-safety"></i></span>
+        <span>XTRA<strong>CONSTRUCTION</strong></span>
+      </a>
+      <p class="footer-text">Building with care. Delivering with confidence.</p>
+
+      <div class="footer-social" aria-hidden="true">
+        <span aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></span>
+        <span aria-label="X"><i class="fa-brands fa-x-twitter"></i></span>
+        <span aria-label="Instagram"><i class="fa-brands fa-instagram"></i></span>
+        <span aria-label="YouTube"><i class="fa-brands fa-youtube"></i></span>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Xtra Construction. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="faq.html">FAQ</a>
+          <a href="about.html">About</a>
+          <a href="#quote">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- cookie box -->
+  <div class="cookie" id="cookie">
+    <i class="fa-solid fa-cookie-bite"></i>
+    <span>This website uses cookies to improve user experience.</span>
+    <button id="cookieBtn">Accept and close</button>
+  </div>
+
+  <!-- back to top -->
+  <button id="topBtn"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>

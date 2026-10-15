@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services – Construction 2</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- top bar -->
+  <div class="topbar">
+    <div class="container topbar-flex">
+      <p>Have any questions? call us <a href="tel:0018182345678"><i class="fa-solid fa-phone-volume"></i> +1 (818) 23 45 678</a></p>
+      <div class="social" aria-hidden="true">
+        <span aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></span>
+        <span aria-label="X"><i class="fa-brands fa-x-twitter"></i></span>
+        <span aria-label="Instagram"><i class="fa-brands fa-instagram"></i></span>
+        <span aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- header -->
+  <header class="header" id="header">
+    <div class="container header-flex">
+      <a href="index.html" class="brand-logo" aria-label="Xtra Construction home">
+        <span class="brand-logo-mark"><i class="fa-solid fa-helmet-safety"></i></span>
+        <span>XTRA<strong>CONSTRUCTION</strong></span>
+      </a>
+
+      <ul class="menu" id="menu">
+        <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li class="dropdown">
+          <a href="#" aria-expanded="false">Pages <i class="fa-solid fa-angle-down"></i></a>
+          <ul class="submenu">
+            <li><a href="my-account.html">My account</a></li>
+          </ul>
+        </li>
+        <li><a href="index.html#quote">Contact</a></li>
+      </ul>
+
+      <div class="header-right">
+        <button id="searchBtn" type="button" aria-label="Open search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <a href="index.html#quote" class="btn white">Free Consultation</a>
+        <button id="menuBtn" type="button" aria-label="Open navigation menu" aria-controls="menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- search popup -->
+  <div class="search-box" id="searchBox">
+    <button class="popup-close" id="searchClose" type="button" aria-label="Close search">&times;</button>
+    <input type="text" placeholder="Type keyword to search ...">
+    <p>Trending searches: place, silence, create, logo, like</p>
+  </div>
+
+  <!-- page title banner -->
+  <div class="page-banner">
+    <div class="container banner-flex">
+      <h1>Services</h1>
+      <div class="breadcrumb">
+        <a href="index.html"><i class="fa-solid fa-house"></i></a>
+        <i class="fa-solid fa-angles-right"></i>
+        <span>Services</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4 service boxes -->
+  <section class="svc-main">
+    <div class="container">
+      <div class="heading-wrap center" data-text="SERVICES">
+        <p class="small-title">WHAT WE CAN DO FOR YOU</p>
+        <h2 class="title">Our construction services</h2>
+      </div>
+
+      <div class="svc-grid">
+        <div class="svc-card reveal">
+          <span class="svc-icon"><i class="fa-solid fa-house"></i></span>
+          <h3>House<br>Construction</h3>
+          <p>From foundations to finishing, our team delivers carefully planned residential building projects.</p>
+          <a href="index.html#quote" class="svc-btn">Contact us</a>
+        </div>
+        <div class="svc-card reveal">
+          <span class="svc-icon"><i class="fa-solid fa-truck-pickup"></i></span>
+          <h3>Road<br>Construction</h3>
+          <p>We build and improve roads with a focus on safe work sites, durable materials, and reliable schedules.</p>
+          <a href="index.html#quote" class="svc-btn">Contact us</a>
+        </div>
+        <div class="svc-card reveal">
+          <span class="svc-icon"><i class="fa-solid fa-hammer"></i></span>
+          <h3>Maintenance<br>Mode</h3>
+          <p>Keep your property working at its best with practical repair, inspection, and maintenance services.</p>
+          <a href="index.html#quote" class="svc-btn">Contact us</a>
+        </div>
+        <div class="svc-card reveal">
+          <span class="svc-icon"><i class="fa-solid fa-pen-ruler"></i></span>
+          <h3>Modern<br>Building</h3>
+          <p>Our modern building service brings design, engineering, and construction together from the start.</p>
+          <a href="index.html#quote" class="svc-btn">Contact us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- tips + feature cards -->
+  <section class="tips navy-bg">
+    <div class="container">
+      <div class="tips-head">
+        <div class="heading-wrap" data-text="TIPS">
+          <p class="small-title left">CONSTRUCTION TIPS</p>
+          <h2 class="title left big white">We know what your needs are</h2>
+        </div>
+        <p class="tips-text">Every project has its own challenges. We plan carefully, choose the right materials, and keep our clients informed as work moves from the first site visit through final handover.</p>
+      </div>
+
+      <div class="feature-row">
+        <div class="feature-card reveal">
+          <img src="images/feature-1.png" alt="Building Engineering">
+          <div class="caption"><span>Building Engineering</span><i class="fa-solid fa-angle-up"></i></div>
+          <div class="feature-info">
+            <h3>Building Engineering</h3>
+            <p>Our engineers coordinate design, construction, assessment, and maintenance to create buildings that work well over time.</p>
+            <a href="services.html" class="btn white">Learn More ...</a>
+          </div>
+        </div>
+        <div class="feature-card reveal">
+          <img src="images/feature-2.png" alt="Safety First">
+          <div class="caption"><span>Safety First</span><i class="fa-solid fa-angle-up"></i></div>
+          <div class="feature-info">
+            <h3>Safety First</h3>
+            <p>Our teams follow clear site procedures and use the right protective equipment to keep people safe throughout the build.</p>
+            <a href="services.html" class="btn white">Learn More ...</a>
+          </div>
+        </div>
+        <div class="feature-card reveal">
+          <img src="images/feature-3.png" alt="Road Construction">
+          <div class="caption"><span>Road Construction</span><i class="fa-solid fa-angle-up"></i></div>
+          <div class="feature-info">
+            <h3>Road Construction</h3>
+            <p>We prepare stable foundations and durable surfaces for road projects, using a process suited to the location and conditions.</p>
+            <a href="services.html" class="btn white">Learn More ...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- services cards + yellow call to action -->
+  <section class="services">
+    <div class="container">
+      <div class="heading-wrap center" data-text="SERVICES">
+        <p class="small-title">WHAT WE CAN DO FOR YOU</p>
+        <h2 class="title">Our construction services</h2>
+      </div>
+
+      <div class="service-row">
+        <div class="service-card reveal">
+          <i class="fa-solid fa-building"></i>
+          <h3>Building</h3>
+          <p>A building, or edifice, is a structure with a roof and walls standing.</p>
+          <a href="#serviceQuote" class="btn navy">Read More</a>
+        </div>
+        <div class="service-card reveal">
+          <i class="fa-solid fa-truck-monster"></i>
+          <h3>Road Construction</h3>
+          <p>Road construction involves the use of asphalt, liquid asphalt, concrete, soil stabilization, rebar, paving and pavement recycling machines, and other road repair materials.</p>
+          <a href="#serviceQuote" class="btn navy">Read More</a>
+        </div>
+        <div class="service-card reveal">
+          <i class="fa-solid fa-screwdriver-wrench"></i>
+          <h3>Maintenance</h3>
+          <p>All are assigned responsibilities relate to the maintenance mode and construction.</p>
+          <a href="#serviceQuote" class="btn navy">Read More</a>
+        </div>
+      </div>
+
+      <div class="cta reveal">
+        <i class="fa-solid fa-ruler-combined"></i>
+        <div class="cta-text">
+          <h3>Building a dream shouldn't be a nightmare!</h3>
+          <p>We have transforming the ideas and visions into winning projects.</p>
+        </div>
+        <a href="index.html#quote" class="btn white">Free Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- process -->
+  <section class="process">
+    <div class="process-grid">
+      <div class="process-left">
+        <div class="heading-wrap" data-text="HOW?">
+          <p class="small-title left">PROCESS OF CONSTRUCTION</p>
+          <h2 class="title left">How it works<br>in construction?</h2>
+        </div>
+        <p>Clear planning and communication help every project move forward with confidence.</p>
+        <div class="process-img reveal from-left">
+          <img src="images/process.png" alt="Construction stages from planning to completion">
+        </div>
+      </div>
+
+      <div class="process-right">
+        <div class="step reveal">
+          <span class="num">01</span>
+          <div><h3>Agency / Bidding</h3><p>Ensure design documents are reviewed and permitted</p></div>
+        </div>
+        <div class="step reveal">
+          <span class="num">02</span>
+          <div><h3>Construction</h3><p>Helps to coordinate furnishings and move-in process</p></div>
+        </div>
+        <div class="step reveal">
+          <span class="num">03</span>
+          <div><h3>Project Execution</h3><p>Client directs move in of equipment, operations &amp; staff</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- request a construction quote -->
+  <section class="quote" id="serviceQuote">
+    <div class="container quote-flex">
+      <div class="quote-text reveal from-left">
+        <div class="heading-wrap" data-text="QUOTE">
+          <p class="small-title left">INTERESTED IN CONSTRUCTION?</p>
+          <h2 class="title left white">Request a free and<br>fair quote</h2>
+        </div>
+        <p>Tell us a little about your project. Our team will review your request and get back to you to discuss the next steps.</p>
+      </div>
+
+      <form class="quote-form reveal from-right" id="serviceQuoteForm">
+        <div class="form-grid">
+          <div>
+            <label for="serviceName">Your Name (required)</label>
+            <input type="text" id="serviceName" required>
+          </div>
+          <div>
+            <label for="serviceEmail">Your Email (required)</label>
+            <input type="email" id="serviceEmail" required>
+          </div>
+          <div class="full">
+            <label for="serviceMessage">Tell us about your project</label>
+            <textarea id="serviceMessage" rows="5"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn navy">Send request</button>
+        <p id="serviceFormMsg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <a href="index.html" class="brand-logo" aria-label="Xtra Construction home">
+        <span class="brand-logo-mark"><i class="fa-solid fa-helmet-safety"></i></span>
+        <span>XTRA<strong>CONSTRUCTION</strong></span>
+      </a>
+      <p class="footer-text">Building with care. Delivering with confidence.</p>
+      <div class="footer-social" aria-hidden="true">
+        <span aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></span>
+        <span aria-label="X"><i class="fa-brands fa-x-twitter"></i></span>
+        <span aria-label="Instagram"><i class="fa-brands fa-instagram"></i></span>
+        <span aria-label="YouTube"><i class="fa-brands fa-youtube"></i></span>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Xtra Construction. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="faq.html">FAQ</a>
+          <a href="about.html">About</a>
+          <a href="index.html#quote">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="cookie" id="cookie">
+    <i class="fa-solid fa-cookie-bite"></i>
+    <span>This website uses cookies to improve user experience.</span>
+    <button id="cookieBtn">Accept and close</button>
+  </div>
+
+  <button id="topBtn"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>

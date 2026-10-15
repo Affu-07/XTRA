@@ -1,0 +1,209 @@
+/* Extra styles used only on the About page. */
+#searchBtn {
+  padding: 8px;
+  border: 0;
+  background: transparent;
+  font-size: 16px;
+}
+
+#menuBtn {
+  padding: 6px;
+  border: 0;
+  background: transparent;
+}
+
+.about-page .popup-close {
+  border: 0;
+  background: transparent;
+  color: #fff;
+  line-height: 1;
+}
+
+.counters.navy-bg {
+  background: linear-gradient(135deg, #243142, #182432);
+}
+
+.counter-intro {
+  max-width: 620px;
+  margin: 0 auto 45px;
+  text-align: center;
+}
+
+.counter-intro .small-title,
+.counter-intro .title {
+  text-align: center;
+}
+
+.counter-intro > p:last-child {
+  max-width: 520px;
+  margin: 0 auto;
+  color: #d4d9df;
+  font-size: 14px;
+}
+
+.counters .counter-row {
+  padding-top: 10px;
+}
+
+.about-cta {
+  padding: 50px 0;
+  background: #fdf9ee;
+}
+
+.about-cta-inner {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.about-cta-icon {
+  display: grid;
+  width: 68px;
+  height: 68px;
+  flex: 0 0 68px;
+  place-items: center;
+  background: var(--navy);
+  color: var(--yellow);
+  font-size: 28px;
+}
+
+.about-cta-inner > div {
+  flex: 1;
+}
+
+.about-cta .small-title {
+  margin-bottom: 5px;
+  font-size: 11px;
+}
+
+.about-cta h2 {
+  margin-bottom: 5px;
+  color: var(--navy);
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.about-cta-inner > div > p:last-child {
+  color: #656c74;
+  font-size: 13px;
+}
+
+.about-cta .btn i {
+  margin-left: 9px;
+}
+
+.testi-photo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.testi-dots button {
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #ddd;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.testi-dots button.active {
+  background: var(--yellow);
+  transform: scale(1.3);
+}
+
+.about-partners {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  margin-top: 65px;
+  padding-top: 30px;
+  border-top: 1px solid #ececec;
+}
+
+.partner-wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #9299a0;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.partner-wordmark i {
+  color: #a5abb0;
+  font-size: 19px;
+}
+
+.testi-dots button:focus-visible,
+.brand-logo:focus-visible,
+.about-cta .btn:focus-visible {
+  outline: 3px solid #c18b0c;
+  outline-offset: 4px;
+}
+
+@media (max-width: 992px) {
+  .about-cta-inner {
+    flex-wrap: wrap;
+  }
+
+  .about-cta-inner > div {
+    flex-basis: calc(100% - 100px);
+  }
+
+  .about-cta-inner > .btn {
+    margin-left: 92px;
+  }
+}
+
+@media (max-width: 600px) {
+  .counter-intro {
+    margin-bottom: 32px;
+  }
+
+  .counter-label {
+    width: 90%;
+    white-space: normal;
+  }
+
+  .about-cta {
+    padding: 40px 0;
+  }
+
+  .about-cta-inner {
+    align-items: flex-start;
+    gap: 17px;
+  }
+
+  .about-cta-icon {
+    width: 52px;
+    height: 52px;
+    flex-basis: 52px;
+    font-size: 22px;
+  }
+
+  .about-cta-inner > div {
+    flex-basis: calc(100% - 70px);
+  }
+
+  .about-cta h2 {
+    font-size: 20px;
+  }
+
+  .about-cta-inner > .btn {
+    margin-left: 69px;
+  }
+
+  .about-partners {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px 25px;
+    margin-top: 40px;
+  }
+}
